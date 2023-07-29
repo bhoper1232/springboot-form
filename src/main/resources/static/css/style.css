@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.welcome-container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 350px;
+    text-align: center;
+}
+
+.welcome-container h2 {
+    color: #333333;
+}
+
+.welcome-container p {
+    margin-top: 20px;
+    color: #666666;
+}
+
+.welcome-buttons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.welcome-buttons a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.welcome-buttons a.login-btn {
+    background-color: #4CAF50;
+}
+
+.welcome-buttons a.register-btn {
+    background-color: #428bca;
+}
+
+.welcome-buttons a:hover {
+    background-color: #333333;
+}
